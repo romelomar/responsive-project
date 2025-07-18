@@ -43,6 +43,8 @@ main > section{
 /* dark 03 */
 .text-light-gray{
     color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* bg color */
@@ -134,12 +136,56 @@ background-color: rgba(255, 144, 14, 0.1);
 }
 #q-list{
     font-weight: 500;
+    font-size: 2.75rem;
 }
 #f-color{
     color: #FF900E;
 }
+/* feature releted styles */
+.title{
+    font-size: 1.2rem;
+    font-weight: 500;
 
+}
+.feature-card{
+    width: 514px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 35px;
+    margin-right: 140px;
+}
+.feature-head{
+    display: flex;
+}
 
+.width{
+   width: 586px;
+}
+.years{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 45px;
+    line-height: .8;
+    margin-top: -130px;
+    margin-left: -92px;
+
+}
+.ex{
+    font-size: 1.8rem; 
+    font-weight: 600;
+    color: white;
+   
+}
+.paddding{
+    padding-top: 20px;
+}
 /* some facts releted styles */
 .facts-container{
     display: grid;
@@ -187,7 +233,11 @@ background-color: rgba(255, 144, 14, 0.1);
     margin-bottom: 130px;
     margin-top: 50px;
 }
-
+.border-left{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+ 
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
